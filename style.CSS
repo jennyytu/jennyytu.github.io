@@ -1,0 +1,82 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+html {
+  height:700px;
+}
+
+body {
+ background-color: lightcyan; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: navy;
+  text-align:center;
+  padding:20px;
+  font:monospace;
+  font-size:100px;
+}  
+
+/* STYLE IMAGES */
+.column1 {
+  float: left;
+  width: 50%;
+}
+
+.column2 {
+  float: right;
+  width: 50%;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+  
+.mainpicimg img{
+  height:800px;
+  width:100%;
+  padding:10px;
+}
+
+#sizing {
+  border-style: groove;
+  font-size: 28px;
+  padding:10px;
+  border-width: medium;
+  border: 2px solid #2362b3;
+  border-radius: 5px;
+}
+
+#factgenerator {
+  text-align: center;
+  border: 2px solid #2362b3;
+  border-radius: 5px;
+  padding:10px;
+}
+
+h2 {
+  font-size:50px;
+  color:#088F8F	;
+}
+
+#moreresources {
+  text-align: center;
+  color:#055099;
+  border: 2px solid #2362b3;
+  border-radius: 5px;
+  padding:10px;
+}
+
+p {
+  font-size:25px;
+}
+/* STYLE NAV BAR */
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
